@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAKS-2 CSS</title>
+    <style>
+        .navbarvertical
+        {
+            border: 1px solid black;
+            width: 200px;
+            margin-left: 0px;
+            background-color: lightblue;
+        }
+        .navbarhorizontal
+        {
+            margin-top: -100px;
+            margin-left: 250px;
+            border: 1px solid black;
+            width: 300px;
+            background-color: lightgrey;
+        }
+        .navbarvertical li:hover
+        {
+            background-color: orange;
+        }
+        .navbarhorizontal li a:hover
+        {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbarvertical">
+        <ul type="none">
+            <li><a href="">Home</a></li>
+            <li><a href="">Java</a></li>
+            <li><a href="">CSS</a></li>
+            <li><a href="">HTML</a></li>
+            <li><a href="">Bootstrap</a></li>
+        </ul>
+    </nav>
+    <nav class="navbarhorizontal">
+        <ul type="none">
+            <li><a href="">Home</a>|
+                <a href="">Java</a>|
+                <a href="">CSS</a>|
+                <a href="">HTML</a>|
+                <a href="">Bootstrap</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

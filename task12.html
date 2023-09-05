@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task7(css)</title>
+    <link rel="stylesheet" href="style7.css">
+</head>
+<body>
+    <form action="#">
+        <div class="outer-box">
+            <div class="inner-box">
+                <label for="name" class="my-tags">Name:</label>
+                <input type="text" name="name" placeholder="your name" style="margin-left: 20px; margin-top: 10px;">
+                <br>
+                <label for="email" class="my-tags">Email:</label>
+                <input type="text" name="email" placeholder="your email" style="margin-left: 20px; margin-top: 10px;">
+                <br>
+                <label for="pw" class="my-tags">Password:</label>
+                <input type="password" name="pw" style="margin-left: -4px; margin-top: 10px;">
+                <br>
+                <label for="phno" class="my-tags">Phone Number:</label>
+                <input type="text" name="phno" style="margin-left: -40px; margin-top: 10px;">
+                <br>
+                <label for="gender" class="my-tags">Gender:</label><label for="male" style="margin-left: 14px;">Male:</label><input type="radio" name="male" id="gender">
+                <label for="female">Female:</label><input type="radio" name="female" id="gender">
+                <label for="others">Others:</label><input type="radio" name="others" id="gender">
+                <br>
+                <label for="language" class="my-tags">Language:</label>
+                <select name="language" id="language" style="margin-left: -5px; margin-top: 10px;">
+                    <option value="" selected disabled>Select language</option>
+                    <option value="hindi">Hindi</option>
+                    <option value="eng">English</option>
+                    <option value="guj">Gujrati</option>
+                    <option value="marathi">Marathi</option>
+                </select>
+                <br>
+                <label for="zipcode" class="my-tags">Zip Code:</label>
+                <input type="text" name="zipcode" style="margin-left: -4px; margin-top: 10px;">
+                <br>
+                <br>
+                <br>
+                <label for="about" class="my-tags">About:</label>
+                <br>
+                <textarea name="about" id="about" cols="27" rows="3" style="margin-left: 165px; margin-top: -40px;" placeholder="Write about yourself..."></textarea>
+                <br>
+                <button class="register-button">Register</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

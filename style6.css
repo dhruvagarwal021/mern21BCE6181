@@ -1,0 +1,61 @@
+.form
+{
+    border: 0.3px solid #d7d3d3;
+    width: 550px;
+    height: 650px;
+}
+.img-task6
+{
+    width: 250px;
+    height: 250px;
+    margin-top: 70px;
+    margin-left: 130px;
+    border: 1px solid rgb(238, 231, 231);
+    border-radius: 200px;
+}
+#input
+{
+    margin-top: 3px;
+    margin-left: 1px;
+    border:0.5px solid #c3c2c2;
+    width: 540px;
+    height: 30px;
+}
+.login-button
+{
+    text-align: center;
+    background-color: rgb(36, 165, 36);
+    border-color: white;
+    color: white;
+    width: 545px;
+    height: 40px;
+    margin-top: 10px;
+}
+.last-part
+{
+    width: 545px;
+    height: 45px;
+    background-color: rgb(222, 222, 223);
+}
+.cancel-button
+{
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0.5px solid rgb(140, 139, 139);
+    border-radius: 5px;
+    margin: 10px 50px 150px 0px;
+    float: left;
+}
+.forgot-pw
+{
+    color: black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    text-decoration: none;
+    float: right;
+    margin-top: 15px;
+}

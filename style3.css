@@ -1,0 +1,33 @@
+.mytable
+{
+    border: 1px solid rgb(220, 218, 218);
+    border-collapse: collapse;
+    width: 900px;
+}
+.heading
+{
+    border: 0.3px solid rgba(251, 251, 251, 0.918);
+    background-color: rgb(1, 178, 125);
+    color: white;
+    text-align: left;
+    height: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.gray
+{
+    border: 0.3px solid rgba(251, 251, 251, 0.918);
+    background-color:lightgray;
+    color: black;
+    text-align: left;
+    height: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.white
+{
+    border: 0.3px solid rgba(251, 251, 251, 0.918);
+    background-color:white;
+    color: black;
+    text-align: left;
+    height: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

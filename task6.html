@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mytable
+        {
+            border-radius: 10px;
+            width: 1000px;
+            background-color: cyan;
+            border: 2;
+            border-color: black;
+            margin-top: 20px;
+            margin-left: 30px;
+        }
+        .myrow
+        {
+            border-radius: 10px;
+        }
+        #rectangle1
+        {
+            width: 150px;
+            height: 100px;
+            border: 3px solid rgb(137, 217, 16);
+            margin-top: 10px;
+            margin-left: 250px;
+            border-radius: 5px;
+        }
+        #rectangle2
+        {
+            width: 150px;
+            height: 100px;
+            border: 3px solid rgb(137, 217, 16);
+            margin-top: -2px;
+            margin-left: 180px;
+            border-radius: 10px;
+        }
+        #rectangle3
+        {
+            width: 150px;
+            height: 100px;
+            border: 3px solid rgb(137, 217, 16);
+            margin-top: -2px;
+            margin-left: 180px;
+            border-radius: 20px;
+        }
+        #rectangle4
+        {
+            width: 150px;
+            height: 100px;
+            border: 3px solid rgb(137, 217, 16);
+            margin-top: 20px;
+            margin-left: 250px;
+            border-radius: 10px;
+        }
+        #rectangle5
+        {
+            width: 150px;
+            height: 100px;
+            border: 3px solid rgb(137, 217, 16);
+            margin-top: -2px;
+            margin-left: 180px;
+            border-radius: 4px;
+        }
+        #ellipse
+        {
+            width: 150px;
+            height: 100px;
+            border: 3px solid rgb(137, 217, 16);
+            border-radius: 50%;
+            margin-top: 30px;
+            margin-left: 250px;
+        }
+        #diffrectangle
+        {
+            width: 150px;
+            height: 100px;
+            border: 3px solid rgb(137, 217, 16);
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            margin-top: -2px;
+            margin-left: 180px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" class="mytable">
+        <tr>
+            <th class="myrow">First Name</th>
+            <th class="myrow">Last Name</th>
+            <th class="myrow">Age</th>
+        </tr>
+        <tr>
+            <td class="myrow">Jill</td>
+            <td class="myrow">Smith</td>
+            <td class="myrow">50</td>
+        </tr>
+        <tr>
+            <td class="myrow">Eve</td>
+            <td class="myrow">Jackson</td>
+            <td class="myrow">94</td>
+        </tr>
+        <tr>
+            <td class="myrow">John</td>
+            <td class="myrow">Doe</td>
+            <td class="myrow">94</td>
+        </tr>
+    </table>
+    <section id="rectangle1"><section id="rectangle2"><section id="rectangle3"></section></section></section>
+    <section id="rectangle4"><section id="rectangle5"><section id="rectangle3"></section></section></section>
+    <section id="ellipse"><section id="rectangle5"><section id="diffrectangle"></section></section></section>
+</body>
+</html>
