@@ -1,53 +1,59 @@
-.border
-{
-    border: 1px solid black;
-    height: 700px;
-    width: 800px;
-    position: absolute;
-    top: 50px;
-    right: 50px;
-    bottom: 50px;
-    left: 300px;
-}
 h1
 {
-    text-align: center;
+    margin-top: 20px;
+    margin-left: 130px;
 }
-.green-button
+
+.box-p
 {
-    background-color: green; 
-    width: 100px; 
-    height: 100px; 
-    border: 0px; 
-    border-top-right-radius: 10px ; 
-    border-bottom-right-radius: 10px;
-    transform: ;
+    margin-left: 130px;
 }
-.blue-button
+
+.box
+{
+    margin: 150px 50px 50px 150px;
+    position: relative;
+    border:2px solid black;
+    width: 700px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.boxes
+{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    color: white;
+    border-radius: 7px;
+    transition: transform 0.1s ease;
+    transform: translate(-60%,10%);
+}
+.green
+{
+    background-color: rgb(2, 148, 90);
+    top: 10px;
+    left: 0;
+}
+.blue
 {
     background-color: rgb(21, 144, 220); 
-    width: 100px; 
-    height: 100px; 
-    border: 0px; 
-    margin-top: -68px;
-    border-top-right-radius: 10px ; 
-    border-bottom-right-radius: 10px;
+    top: 90px;
+    left: 0;
 }
-.red-button
+.red
 {
-    background-color: red; 
-    width: 100px; 
-    height: 100px; 
-    border: 0px; 
-    border-top-right-radius: 10px ; 
-    border-bottom-right-radius: 10px;
+    background-color: red;
+    top: 170px;
+    left: 0;
 }
-.grey-button
+.gray
 {
     background-color: rgb(73, 73, 73); 
-    width: 100px; 
-    height: 100px; 
-    border: 0px; 
-    border-top-right-radius: 10px ; 
-    border-bottom-right-radius: 10px;
+    top: 250px;
+    left: 0;
+}
+.boxes:hover
+{
+    transform: translateX(20px);
 }
