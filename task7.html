@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,48 +8,108 @@
     <style>
         .navbarvertical
         {
+            display: flex;
             border: 1px solid black;
             width: 200px;
-            margin-left: 0px;
-            background-color: lightblue;
+            height: 250px;
+            align-items: center;
         }
-        .navbarhorizontal
+
+        .navbarvertical > div
         {
-            margin-top: -100px;
-            margin-left: 250px;
-            border: 1px solid black;
-            width: 300px;
-            background-color: lightgrey;
+            margin-top: 10px;
+            margin-left: 10px;
         }
-        .navbarvertical li:hover
+
+        .navbarvertical a
+        {
+            text-decoration: none;
+            color: blue;
+            font-size: 20px;
+        }
+
+        .vertical-nav-inner
+        {
+            padding: 10px 10px;
+        }
+
+        .vertical-nav-inner:hover
         {
             background-color: orange;
+            color: white;
         }
-        .navbarhorizontal li a:hover
+
+        .navbarvertical a:hover
         {
-            background-color: gray;
+            color: white;
+        }
+
+        .navbarhorizontal
+        {
+            display: flex;
+            border: 1px solid black;
+            width: 500px;
+            height: 70px;
+            align-items: center;
+        }
+
+        .navbarhorizontal > div
+        {
+            display: flex;
+            margin-left: 10px;
+            width: 500px;
+            align-items: center;
+        }
+
+        .navbarhorizontal a
+        {
+            font-size: 20px;
+            padding: 15px;
+            color: blue;
+            text-decoration: none;
+        }
+        
+        .navbarhorizontal a:hover
+        {
+            background-color: grey;
+            color: white;
+        }
+
+        .vertical-line
+        {
+            width: 1px;
+            height: 55px;
+            background-color: black;
         }
     </style>
 </head>
+
 <body>
-    <nav class="navbarvertical">
-        <ul type="none">
-            <li><a href="">Home</a></li>
-            <li><a href="">Java</a></li>
-            <li><a href="">CSS</a></li>
-            <li><a href="">HTML</a></li>
-            <li><a href="">Bootstrap</a></li>
-        </ul>
-    </nav>
-    <nav class="navbarhorizontal">
-        <ul type="none">
-            <li><a href="">Home</a>|
-                <a href="">Java</a>|
-                <a href="">CSS</a>|
-                <a href="">HTML</a>|
-                <a href="">Bootstrap</a>
-            </li>
-        </ul>
-    </nav>
+    <h4>Vertical Navigation Bar</h4>
+    <div class="navbarvertical">
+        <div style="background-color: rgb(145, 223, 242); height: 240px; width: 180px;">
+            <div class="vertical-nav-inner"><a href="#">Home</a></div>
+            <div class="vertical-nav-inner"><a href="#">Java</a></div>
+            <div class="vertical-nav-inner"><a href="#">CSS</a></div>
+            <div class="vertical-nav-inner"><a href="#">HTML</a></div>
+            <div class="vertical-nav-inner"><a href="#">Bootstrap</a></div>
+        </div>
+    </div>
+    <br>
+    <h4>Horizontal Navigation Bar</h4>
+    <div class="navbarhorizontal">
+        <div style="background-color: rgb(203, 201, 201); height: 55px;">
+            <div><a href="#">Home</a></div>
+            <span class="vertical-line"></span>
+            <div><a href="#">Java</a></div>
+            <span class="vertical-line"></span>
+            <div><a href="#">HTML</a></div>
+            <span class="vertical-line"></span>
+            <div><a href="#">CSS</a></div>
+            <span class="vertical-line"></span>
+            <div><a href="#">Bootstrap</a></div>
+        </div>
+    </div>
 </body>
+
 </html>
